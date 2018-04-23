@@ -102,6 +102,48 @@ nav {
     justify-content: space-between;
 }
 
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.portfolio h4 {
+    background: #424147;
+    padding: 0 8px;
+    display: inline-block;
+    color: #f5e10a;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.portfolio p {
+    font-size: 16px;
+    color: #424146;
+}
+.toggles button {
+    border: none;
+    color: #424146;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 5px;
+    background: white;
+}
+.toggles button:hover {
+    background: #ffea00;
+}
+.toggles button:after {
+    content: ' / ';
+}
+.toggles button:last-child:after {
+    content: '';
+}
+.posts {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+}
+
+
 @media screen and (max-width: 420px) {
     .header-container {
         width: 100%;
