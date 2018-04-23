@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: 0;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: #f6f6f6;
+    padding: 22px 0px;
+}
+.header-container {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container a {
+    color: black;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 50px;
+}
+.header-container a:hover {
+    background: #ffea00;
+}
+#menu-checkbox {
+    display: none;
+}
+ul {
+    display: flex;
+}
+nav {
+    margin-top: 10px;
+}
