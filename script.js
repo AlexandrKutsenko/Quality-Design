@@ -11,3 +11,29 @@ $(function(){
         $('.post').show(700);
     });
 });
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:8,
+        autoplay:Boolean,
+        autoplayTimeout:2500,
+        autoplayHoverPause:Boolean,
+        loop:Boolean,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:3,
+                nav:true
+            },
+            420:{
+                items:5,
+                nav:false
+            },
+            1000:{
+                items:8,
+                nav:true,
+                loop:false
+            }
+        }
+    });
+});

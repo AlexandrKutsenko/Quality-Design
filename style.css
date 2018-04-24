@@ -143,6 +143,29 @@ nav {
     margin: 0 auto;
 }
 
+.brand-slider {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.brand-slider h4 {
+    background: #424147;
+    padding: 0 8px;
+    display: inline-block;
+    color: #f5e10a;
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+.brand-slider p {
+    font-size: 16px;
+    color: #424146;
+    margin-bottom: 40px;
+}
+.owl-nav {
+    display: none;
+}
 
 @media screen and (max-width: 420px) {
     .header-container {
@@ -224,5 +247,12 @@ nav {
     .posts {
         grid-template-columns: auto;
         margin: 6px auto;
+    }
+    .brand-slider h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .brand-slider p {
+        margin-bottom: 20px;
     }
 }
