@@ -185,4 +185,44 @@ nav {
     .main-menu {
         position: relative;
     }
+    .top-slide {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .top-slide h2 {
+        font-size: 32px;
+    }
+    .top-slide p {
+        font-size: 16px;
+    }
+    .specialize-container h3 {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+    .specialize-container p {
+        font-size: 16px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    .specialize-cards {
+        flex-direction: column;
+    }
+    .bottom-card {
+        margin: 0 auto;
+        top: -18px;
+    }
+    .specialize-container p {
+        margin-bottom: 20px;
+    }
+    .portfolio h4 {
+        margin-bottom: 20px;
+    }
+    .toggles button {
+        font-size: 14px;
+        margin: 5px 5px;
+    }
+    .posts {
+        grid-template-columns: auto;
+        margin: 6px auto;
+    }
 }
