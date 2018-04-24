@@ -167,6 +167,60 @@ nav {
     display: none;
 }
 
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 3%;
+}
+footer {
+    background: #414146;
+    padding: 30px o;
+    color: white;
+}
+footer h4 {
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer-container .about-us a {
+    background: black;
+    border-bottom: 2px solid #ffea00;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.footer-container .about-us a:hover {
+    background: #ffea00;
+    color: black;
+    font-weight: bold;
+}
+.images {
+    margin-top: 10px;
+}
+.tweets p {
+    margin-top: 25px;
+}
+.tweets img {
+    margin-right: 20px;
+}
+.text-yellow {
+    color: #ffea00;
+}
+.social-connecting {
+    display: flex;
+    flex-direction: row;
+}
+.social-connecting h4 {
+    margin-right: 10px;
+}
+.social-connecting img {
+    margin-right: 3px;
+}
+
 @media screen and (max-width: 420px) {
     .header-container {
         width: 100%;
