@@ -32,7 +32,7 @@ $(document).ready(function(){
             1000:{
                 items:8,
                 nav:true,
-                loop:false
+                loop:true
             }
         }
     });

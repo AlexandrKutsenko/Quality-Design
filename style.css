@@ -14,7 +14,7 @@ a {
 }
 header {
     background: #f6f6f6;
-    padding: 22px 0px;
+    padding: 22px 0;
 }
 .header-container {
     width: 90%;
@@ -176,7 +176,6 @@ nav {
 }
 footer {
     background: #414146;
-    padding: 30px o;
     color: white;
 }
 footer h4 {
@@ -219,6 +218,38 @@ footer h4 {
 }
 .social-connecting img {
     margin-right: 3px;
+}
+.contact p {
+    margin-bottom: 30px;
+}
+.contact img {
+    margin-right: 20px;
+}
+.email_send {
+    border: none;
+    background: none;
+    border-bottom: 2px solid #ffea00;
+    width: 230px;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.footer__menu {
+    height: 70px;
+    background: black ;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer__menu-text {
+    padding: 0 30%;
+}
+.footer__menu-text a {
+    color: white;
+    font-size: 20px;
+}
+.footer__menu-text li {
+    text-align: center;
+    margin: 20px auto;
 }
 
 @media screen and (max-width: 420px) {
